@@ -1,0 +1,3 @@
+Dựa vào app thời gian => tạo 1 app count down
+Bằng cách đặt 1 sự kiện tại 1 thời điểm => bấm start => count down còn bao nhiêu tháng/ngày.giờ/giây
+Nâng cấp: add nhiều sự kiện cùng lúc (sử dụng đa luồng)

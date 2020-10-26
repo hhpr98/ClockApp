@@ -1,0 +1,1 @@
+Tương tự countdown app, app này nhắc nhở người dùng (bằng cách phát nhạc hoặc phát ra tiếng bíp khi tới thời điểm)
