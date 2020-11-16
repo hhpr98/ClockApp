@@ -34,7 +34,7 @@ namespace Clock
             {
                 hour1.Image = Image.FromFile(imgPath + (hour / 10).ToString() + ".png");
                 hour1.SizeMode = PictureBoxSizeMode.StretchImage;
-                hour2.Image = Image.FromFile(imgPath + @"\Resources\" + (hour % 10).ToString() + ".png");
+                hour2.Image = Image.FromFile(imgPath + (hour % 10).ToString() + ".png");
                 hour2.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
@@ -52,7 +52,7 @@ namespace Clock
             {
                 minute1.Image = Image.FromFile(imgPath + (minute / 10).ToString() + ".png");
                 minute1.SizeMode = PictureBoxSizeMode.StretchImage;
-                minute2.Image = Image.FromFile(imgPath + @"\Resources\" + (minute % 10).ToString() + ".png");
+                minute2.Image = Image.FromFile(imgPath + (minute % 10).ToString() + ".png");
                 minute2.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
@@ -70,7 +70,7 @@ namespace Clock
             {
                 second1.Image = Image.FromFile(imgPath + (second / 10).ToString() + ".png");
                 second1.SizeMode = PictureBoxSizeMode.StretchImage;
-                second2.Image = Image.FromFile(imgPath + @"\Resources\" + (second % 10).ToString() + ".png");
+                second2.Image = Image.FromFile(imgPath + (second % 10).ToString() + ".png");
                 second2.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
@@ -93,7 +93,7 @@ namespace Clock
             {
                 day1.Image = Image.FromFile(imgPath + (day / 10).ToString() + ".png");
                 day1.SizeMode = PictureBoxSizeMode.StretchImage;
-                day2.Image = Image.FromFile(imgPath + @"\Resources\" + (day % 10).ToString() + ".png");
+                day2.Image = Image.FromFile(imgPath + (day % 10).ToString() + ".png");
                 day2.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
@@ -111,7 +111,7 @@ namespace Clock
             {
                 month1.Image = Image.FromFile(imgPath + (month / 10).ToString() + ".png");
                 month1.SizeMode = PictureBoxSizeMode.StretchImage;
-                month2.Image = Image.FromFile(imgPath + @"\Resources\" + (month % 10).ToString() + ".png");
+                month2.Image = Image.FromFile(imgPath + (month % 10).ToString() + ".png");
                 month2.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }

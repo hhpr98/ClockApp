@@ -1,6 +1,6 @@
 ﻿namespace Clock
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.clockControl1 = new Clock.ClockControl();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.myClock = new Clock.ClockControl();
             this.SuspendLayout();
             // 
-            // clockControl1
+            // myClock
             // 
-            this.clockControl1.BackColor = System.Drawing.SystemColors.Control;
-            this.clockControl1.Location = new System.Drawing.Point(122, 74);
-            this.clockControl1.Name = "clockControl1";
-            this.clockControl1.Size = new System.Drawing.Size(453, 58);
-            this.clockControl1.TabIndex = 0;
+            this.myClock.BackColor = System.Drawing.SystemColors.Control;
+            this.myClock.Location = new System.Drawing.Point(12, 12);
+            this.myClock.Name = "myClock";
+            this.myClock.Size = new System.Drawing.Size(373, 58);
+            this.myClock.TabIndex = 0;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.clockControl1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(397, 88);
+            this.Controls.Add(this.myClock);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Clock";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private ClockControl clockControl1;
+        private ClockControl myClock;
     }
 }
 

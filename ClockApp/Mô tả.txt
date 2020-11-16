@@ -1,3 +1,0 @@
-Dựa vào môn phân tích & thiết kế phần mềm (1 deadline usercontrol)
-=> 1 app hiển thị thời gian
-SỬ dụng timer hoặc thread
